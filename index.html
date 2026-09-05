@@ -430,10 +430,11 @@
         // Initialize Web Audio API on user interaction
         function initAudio() {
             if (!audioCtx) {
+              try {
                 const AudioContextClass = window.AudioContext || window.webkitAudioContext;
                 audioCtx = new AudioContextClass();
                 masterGain = audioCtx.createGain();
-                masterComp = audioCtx.dynamicsCompressor();
+                masterComp = audioCtx.createDynamicsCompressor();
                 eqLow = audioCtx.createBiquadFilter();
                 eqLow.type = 'lowshelf';
                 eqLow.frequency.value = 250;
@@ -463,6 +464,12 @@
                 masterComp.connect(masterDest);
 
                 generateDefaultSamples();
+              } catch (err) {
+                console.error('Error inicializando audio:', err);
+                audioCtx = null;
+                showAlert('Error de Audio', 'No se pudo iniciar el motor de audio: ' + err.message);
+                return;
+              }
             }
             if (audioCtx.state === 'suspended') {
                 audioCtx.resume();
