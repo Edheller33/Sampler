@@ -1,9 +1,9 @@
-// Service Worker — Koala Pocket Sampler PWA
+// Service Worker — Pocket Beat PWA
 // Estrategia: cache-first para el shell de la app, con actualización en segundo plano.
 // Todo el estado del sampler (samples, patrones, ajustes) vive en memoria del cliente;
 // este SW solo garantiza que la app cargue sin conexión.
 
-const CACHE_NAME = 'koala-sampler-v2';
+const CACHE_NAME = 'pocketbeat-v3';
 const APP_SHELL = [
   './',
   './index.html',
