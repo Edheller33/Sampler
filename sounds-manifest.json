@@ -1,0 +1,162 @@
+[
+  {
+    "file": "sounds/kicks/kick_808.wav",
+    "name": "Kick 808",
+    "category": "kicks"
+  },
+  {
+    "file": "sounds/kicks/kick_deep.wav",
+    "name": "Kick Deep",
+    "category": "kicks"
+  },
+  {
+    "file": "sounds/kicks/kick_punchy.wav",
+    "name": "Kick Punchy",
+    "category": "kicks"
+  },
+  {
+    "file": "sounds/kicks/kick_sub.wav",
+    "name": "Kick Sub",
+    "category": "kicks"
+  },
+  {
+    "file": "sounds/snares/snare_909.wav",
+    "name": "Snare 909",
+    "category": "snares"
+  },
+  {
+    "file": "sounds/snares/snare_trap.wav",
+    "name": "Snare Trap",
+    "category": "snares"
+  },
+  {
+    "file": "sounds/snares/snare_tight.wav",
+    "name": "Snare Tight",
+    "category": "snares"
+  },
+  {
+    "file": "sounds/hats/hat_closed.wav",
+    "name": "HiHat Closed",
+    "category": "hats"
+  },
+  {
+    "file": "sounds/hats/hat_open.wav",
+    "name": "HiHat Open",
+    "category": "hats"
+  },
+  {
+    "file": "sounds/hats/hat_pedal.wav",
+    "name": "HiHat Pedal",
+    "category": "hats"
+  },
+  {
+    "file": "sounds/claps/clap_808.wav",
+    "name": "Clap 808",
+    "category": "claps"
+  },
+  {
+    "file": "sounds/claps/clap_layered.wav",
+    "name": "Clap Layered",
+    "category": "claps"
+  },
+  {
+    "file": "sounds/toms/tom_low.wav",
+    "name": "Tom Low",
+    "category": "toms"
+  },
+  {
+    "file": "sounds/toms/tom_mid.wav",
+    "name": "Tom Mid",
+    "category": "toms"
+  },
+  {
+    "file": "sounds/toms/tom_high.wav",
+    "name": "Tom High",
+    "category": "toms"
+  },
+  {
+    "file": "sounds/perc/rimshot.wav",
+    "name": "Rimshot",
+    "category": "perc"
+  },
+  {
+    "file": "sounds/perc/cowbell.wav",
+    "name": "Cowbell",
+    "category": "perc"
+  },
+  {
+    "file": "sounds/perc/shaker.wav",
+    "name": "Shaker",
+    "category": "perc"
+  },
+  {
+    "file": "sounds/perc/tambourine.wav",
+    "name": "Tambourine",
+    "category": "perc"
+  },
+  {
+    "file": "sounds/perc/conga_low.wav",
+    "name": "Conga Low",
+    "category": "perc"
+  },
+  {
+    "file": "sounds/perc/conga_high.wav",
+    "name": "Conga High",
+    "category": "perc"
+  },
+  {
+    "file": "sounds/cymbals/crash.wav",
+    "name": "Crash",
+    "category": "cymbals"
+  },
+  {
+    "file": "sounds/cymbals/ride.wav",
+    "name": "Ride",
+    "category": "cymbals"
+  },
+  {
+    "file": "sounds/synths/bass_sub.wav",
+    "name": "Sub Bass",
+    "category": "synths"
+  },
+  {
+    "file": "sounds/synths/bass_square.wav",
+    "name": "Square Bass",
+    "category": "synths"
+  },
+  {
+    "file": "sounds/synths/lead_saw.wav",
+    "name": "Saw Lead",
+    "category": "synths"
+  },
+  {
+    "file": "sounds/synths/pad_warm.wav",
+    "name": "Warm Pad",
+    "category": "synths"
+  },
+  {
+    "file": "sounds/synths/pluck_bell.wav",
+    "name": "Bell Pluck",
+    "category": "synths"
+  },
+  {
+    "file": "sounds/synths/chord_stab.wav",
+    "name": "Chord Stab",
+    "category": "synths"
+  },
+  {
+    "file": "sounds/fx/fx_zap.wav",
+    "name": "FX Zap",
+    "category": "fx"
+  },
+  {
+    "file": "sounds/fx/fx_riser.wav",
+    "name": "FX Riser",
+    "category": "fx"
+  },
+  {
+    "file": "sounds/fx/fx_blip.wav",
+    "name": "FX Blip",
+    "category": "fx"
+  }
+]
